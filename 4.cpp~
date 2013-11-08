@@ -1,0 +1,37 @@
+#include <iostream>
+
+bool isPalindrome(int x) 
+{
+  int fstDigit = x;
+  while (fstDigit > 9)
+    {
+      fstDigit /= 10;
+    }
+  int sndDigit = x;
+  while (sndDigit > 99)
+    {
+      sndDigit /= 10;
+    }
+  sndDigit %= 10;
+  int trdDigit = x;
+  while (trdDigit > 999)
+    {
+      trdDigit /= 10;
+    }
+  trdDigir %= 100;
+}
+
+int main(int argc, char** argv)
+{
+  int x = 999;
+  int y = 999;
+  int result = 0;
+  for (int i = 0; i < 200; ++i)
+    {
+      for (int j = 0; j < 100; ++i)
+	{
+	  if ((x-i)*(y-j)
+	}
+    }
+  return 0;
+}

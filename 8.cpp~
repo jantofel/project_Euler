@@ -1,0 +1,12 @@
+#include <iostream>
+
+void fillArray(int[1000] array, string digits)
+{
+
+}
+
+int main(int argc, char** argv)
+{
+  int* digitsArray = new int[1000];
+  
+}

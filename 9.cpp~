@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main(int argc, char** argv)
+{
+  for (int b = 0; b < 500; ++b)
+    {
+      for (int a = 0; a < b; ++a)
+	{
+	  int c2 = a*a + b*b;
+	  if (isSquare(c2))
+	    if (a+b+sqrt(c2) == 1000)
+	      std::cout << a*b*c << std::endl;
+	}
+    }
+  return 0;
+}
