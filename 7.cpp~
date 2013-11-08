@@ -1,8 +1,0 @@
-#include <iostream>
-
-int main(int argc, char** argv)
-{
-  long result 0;
-  std::cout << "The 10001st prime number is: " << result << std::endl;
-  return 0;
-}
