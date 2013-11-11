@@ -48,22 +48,13 @@ void setMaxSum(int col, int row)
     triangle[col][row] += submax1;
   else
     triangle[col][row] += submax2;
-
-  if (col == 1 && row == 1)
-    {
-      cout << triangle[col][row] << endl;
-      cout << triangle[col][row+1] << endl;
-      cout << triangle[col+1][row+1] << endl << endl;
-    }
 }
 
 int main(int argc, char** argv)
 {
   fillTriangle();
-  // std::cout << triangle[0][14] << std::endl;
   for (int row = rows-2; row >= 0; --row)
     for (int col = 0; col <= row; ++col)
       setMaxSum(col,row);
-  cout << triangle[0][14] << endl;
   cout << triangle[0][0] << endl;
 }
