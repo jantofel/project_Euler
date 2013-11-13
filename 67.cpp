@@ -12,7 +12,7 @@ int tri(int x)
 }
 
 void fillTriangle()
-{
+{
   string line;
   ifstream file ("triangle.txt");
   if (file.is_open())
