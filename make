@@ -6,3 +6,6 @@ large_number.o : large_number.cpp large_number.h
 
 25 : 25.o large_number.o
         g++ -g 25.o largenumber.o -lm -o 25
+
+32 : 32.cpp
+        g++ -Wall -g 32.cpp -o 32
